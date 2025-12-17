@@ -1,12 +1,21 @@
-# Template TCC FGA-UnB
+# Template TCC FCTE-UnB
 
-Template para Trabalhos de Conclusão de Cursos (TCC) na Faculdade do
-Gama (FGA) em Latex.
+Template para Trabalhos de Conclusão de Cursos (TCC) na Faculdade de
+Ciência e Tecnologia em Engenharia (FCTE) em Latex.
 
 Licenciado em Creative Commons Atribuição 3.0:
 http://creativecommons.org/licenses/by/3.0/
 
 Desenvolvido e adaptado pelo professor Edson Alves <edsomjr@gmail.com>.
+
+## Overleaf
+Seu projeto pode ser enviado ao Overleaf com os seguintes comandos:
+```
+cd latex/
+zip -r SEU_NOME_TCC.zip *
+```
+
+No overleaf, crie um "Novo projeto" a partir do arquivo SEU\_NOME\_TCC.tgz. Após o projeto ser criado, altere em ``configurações'' para o Overleaf compilar o tcc.tex como arquivo principal.
 
 ## Dependências
 Para utilizar, certifique-se de ter instalados no seu ambiente o [Docker](https://docs.docker.com/engine/install/) e o [Docker-compose](https://docs.docker.com/compose/install/).
