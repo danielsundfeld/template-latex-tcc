@@ -15,7 +15,7 @@ cd latex/
 zip -r SEU_NOME_TCC.zip *
 ```
 
-No overleaf, crie um "Novo projeto" a partir do arquivo SEU\_NOME\_TCC.tgz. Após o projeto ser criado, altere em ``configurações'' para o Overleaf compilar corretamente o seu TCC. Em ``Compiler'' altere a configuração ``Main document'' para escolher o arquivo tcc.tex como principal e abra esse arquivo para recompilar o projeto.
+No overleaf, crie um "Novo projeto" a partir do arquivo SEU\_NOME\_TCC.tgz. Após o projeto ser criado, altere em "configurações" para o Overleaf compilar corretamente o seu TCC. Em "Compiler" altere a configuração "Main document" ser arquivo tcc.tex como principal e abra esse arquivo para recompilar o projeto.
 
 ## Dependências
 Para utilizar, certifique-se de ter instalados no seu ambiente o [Docker](https://docs.docker.com/engine/install/) e o [Docker-compose](https://docs.docker.com/compose/install/).
